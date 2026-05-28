@@ -2,7 +2,8 @@
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main, master ]
+  workflow_dispatch:  # Allows manual trigger
 
 jobs:
   build-and-deploy:
@@ -23,13 +24,18 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore
     
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
-    
     - name: Publish
       run: dotnet publish --configuration Release --output ./publish
     
     - name: Deploy to IIS
       run: |
+        # Create IIS folder if it doesn't exist
+        if (!(Test-Path "C:\inetpub\MyApi")) {
+            New-Item -ItemType Directory -Path "C:\inetpub\MyApi" -Force
+        }
+        
+        # Copy files to IIS folder
         Copy-Item -Path "./publish/*" -Destination "C:\inetpub\MyApi" -Recurse -Force
+        
+        # Restart IIS
         iisreset

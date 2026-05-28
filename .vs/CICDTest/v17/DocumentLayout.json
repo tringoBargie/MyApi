@@ -36,9 +36,9 @@
               "RelativeDocumentMoniker": "CICDTest\\.github\\workflows\\deploy.yml",
               "ToolTip": "D:\\CBE Projets\\CICDTest\\CICDTest\\.github\\workflows\\deploy.yml",
               "RelativeToolTip": "CICDTest\\.github\\workflows\\deploy.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-05-28T22:18:35.059Z",
+              "WhenOpened": "2026-05-28T23:14:05.314Z",
               "EditorCaption": ""
             },
             {
@@ -51,7 +51,8 @@
               "RelativeToolTip": "CICDTest\\Dockerfile.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-05-28T22:12:04.364Z"
+              "WhenOpened": "2026-05-28T22:12:04.364Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

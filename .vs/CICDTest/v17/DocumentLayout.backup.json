@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\CBE Projets\\CICDTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0005EB1C-5880-4DB4-8D2D-C48A0F7C489F}|CICDTest\\CICDTest.csproj|d:\\cbe projets\\cicdtest\\cicdtest\\.github\\workflows\\deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0005EB1C-5880-4DB4-8D2D-C48A0F7C489F}|CICDTest\\CICDTest.csproj|solutionrelative:cicdtest\\.github\\workflows\\deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0005EB1C-5880-4DB4-8D2D-C48A0F7C489F}|CICDTest\\CICDTest.csproj|d:\\cbe projets\\cicdtest\\cicdtest\\dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{0005EB1C-5880-4DB4-8D2D-C48A0F7C489F}|CICDTest\\CICDTest.csproj|solutionrelative:cicdtest\\dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0005EB1C-5880-4DB4-8D2D-C48A0F7C489F}|CICDTest\\CICDTest.csproj|d:\\cbe projets\\cicdtest\\cicdtest\\.github\\workflows\\deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0005EB1C-5880-4DB4-8D2D-C48A0F7C489F}|CICDTest\\CICDTest.csproj|solutionrelative:cicdtest\\.github\\workflows\\deploy.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0005EB1C-5880-4DB4-8D2D-C48A0F7C489F}|CICDTest\\CICDTest.csproj|d:\\cbe projets\\cicdtest\\cicdtest\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,25 +29,21 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "deploy.yml",
               "DocumentMoniker": "D:\\CBE Projets\\CICDTest\\CICDTest\\.github\\workflows\\deploy.yml",
               "RelativeDocumentMoniker": "CICDTest\\.github\\workflows\\deploy.yml",
               "ToolTip": "D:\\CBE Projets\\CICDTest\\CICDTest\\.github\\workflows\\deploy.yml",
               "RelativeToolTip": "CICDTest\\.github\\workflows\\deploy.yml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2026-05-28T22:18:35.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Dockerfile.txt",
               "DocumentMoniker": "D:\\CBE Projets\\CICDTest\\CICDTest\\Dockerfile.txt",
               "RelativeDocumentMoniker": "CICDTest\\Dockerfile.txt",
@@ -59,10 +55,6 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ProductsController.cs",
@@ -72,8 +64,11 @@
               "RelativeToolTip": "CICDTest\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T21:52:45.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T21:52:45.024Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
