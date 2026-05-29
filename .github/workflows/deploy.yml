@@ -1,0 +1,36 @@
+﻿name: Deploy to Local IIS
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+    
+    - name: Restore dependencies
+      run: dotnet restore
+    
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    
+    - name: Publish
+      run: dotnet publish --configuration Release --output ./publish
+    
+    - name: Deploy to IIS
+      run: |
+        if (!(Test-Path "C:\inetpub\MyApi")) {
+            New-Item -ItemType Directory -Path "C:\inetpub\MyApi" -Force
+        }
+        Copy-Item -Path "./publish/*" -Destination "C:\inetpub\MyApi" -Recurse -Force
+        iisreset
